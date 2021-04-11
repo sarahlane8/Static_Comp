@@ -1,0 +1,260 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #DDDBCF;
+  font-family: Roboto;
+}
+
+
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 40% 60%;
+  background: #48304B;
+  height: 12em;
+}
+
+
+h1 {
+  grid-column-start: 2;
+  font-size: 1.5em;
+  color: #78C3FB;
+  justify-self: end;
+}
+
+
+.logo {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  height: 4.5em;
+  width: 4.5em;
+  justify-self: end;
+  align-self: center;
+  padding-right: 1em;
+  padding-bottom: 1em;
+}
+
+
+.header-icons {
+  grid-row-start: 2;
+  grid-column: 1/4;
+  color: #78C3FB;
+  align-self: center;
+  font-size: 1.5em;
+}
+
+
+h2 {
+  color: #48304B;
+  font-weight: 200;
+}
+
+
+.songs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: .8em;
+  padding: 10px;
+  min-wid: 320px;;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #EBEBEB;
+  width: 300px;
+}
+
+
+.upper-card {
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 140px;
+}
+
+
+.album-image {
+  z-index: 1;
+  width: 15em;
+  height: 10em;
+}
+
+
+.play-icon {
+  font-size: 2.5em;
+  z-index: 2;
+  margin-left: 0.4em;
+  margin-top: 0.2em;
+}
+
+
+.number-of-plays {
+  color: white;
+  margin-left: 6em;
+  margin-top: 0.2em;
+  z-index: 2;
+  font-size: 1.5em;
+}
+
+
+.lower-card {
+  padding: 1em;
+}
+
+
+.song-information {
+  height: 52px;
+}
+
+
+.song-title {
+margin: 0;
+font-size: 1.5em;
+color: #3D3D3D;
+}
+
+
+.album-title {
+  margin-top: 0;
+  font-size: 19px;
+  color: #ADADAD;
+  font-weight: bold;
+}
+
+
+.music-video-url {
+  padding: 5px;
+  background-color: #E0E0E0;
+  color: #3D3D3D;
+}
+
+
+.link-to-buy-album,
+.link-to-buy-concert-tickets {
+  margin: 0;
+}
+
+
+.link-to-buy-concert-tickets {
+  font-size: 1.3em;;
+}
+
+
+.link-to-vote {
+  margin-bottom: 0;
+}
+
+
+.number-of-votes {
+  margin: 0;
+  font-size: 2em;
+  color: #4DAFF9;
+}
+
+
+.upper-card1 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/beautifulday.jpg");
+    background-position: right top;
+    background-repeat: repeat;
+    background-size: stretch;
+}
+
+
+.upper-card2 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/callmeirresponsible.jpg");
+    background-position: right top;
+    background-repeat: repeat;
+    background-size: stretch;
+}
+
+
+.upper-card3 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/crazylove.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: stretch;
+}
+
+
+.upper-card4 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/everything.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: stretch;
+}
+
+
+.upper-card5 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/feelinggood.jpg");
+}
+
+
+.upper-card6 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/MB.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: stretch;
+}
+
+
+.upper-card7 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/MB2.jpg");
+}
+
+
+.upper-card8 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/sway.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: stretch;
+}
+
+
+.upper-card9 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/tobeloved.jpg");
+}
+
+
+@media only screen and (max-width: 613px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-icons {
+    font-size: 1em;
+    margin: 0;
+  }
+}
