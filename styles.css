@@ -1,12 +1,13 @@
-/* * {
+* {
   border: solid 1px black;
-} */
+}
 
 body {
   display: flex;
   flex-direction: column;
   background: #DDDBCF;
 }
+
 
 .header {
   display: grid;
@@ -16,12 +17,14 @@ body {
   height: 12em;
 }
 
+
 h1 {
   grid-column-start: 5;
   font-size: 1.5em;
   color: #78C3FB;
   justify-self: end;
 }
+
 
 .logo {
   grid-column-start: 5;
@@ -34,6 +37,7 @@ h1 {
   padding-bottom: 1em;
 }
 
+
 .header-icons {
   grid-row-start: 2;
   grid-column: 1/4;
@@ -42,9 +46,11 @@ h1 {
   font-size: 1.5em;
 }
 
+
 h2 {
   color: #48304B;
 }
+
 
 .songs {
   display: grid;
@@ -55,21 +61,20 @@ h2 {
   grid-gap: 2em;
 }
 
+
 .card {
   display: flex;
-  /* height: auto; */
   flex-direction: column;
   background-color: #EBEBEB;
   /* max-height: 400px; */
   width: 280px;
-    /* position: relative; */
 }
 
 .upper-card {
-  background: linear-gradient(
+  /* background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
-    url("./assets/beautifulday.jpg");
+    url("./assets/beautifulday.jpg"); */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,13 +82,14 @@ h2 {
   height: 140px;
 }
 
+
 .album-image {
   /* position: absolute; */
   z-index: 1;
   width: 15em;
   height: 10em;
-  /* width: 2em; */
 }
+
 
 .play-icon {
   /* position: relative; */
@@ -118,4 +124,65 @@ h2 {
 .music-video-url {
   padding: 5px;
   background-color: gray;;
+}
+.upper-card1 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/beautifulday.jpg");
+}
+.upper-card2 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/callmeirresponsible.jpg");
+}
+
+.upper-card3 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/crazylove.jpg");
+}
+
+.upper-card4 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/everything.jpg");
+}
+
+.upper-card5 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/feelinggood.jpg");
+}
+
+.upper-card6 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/MB.jpg");
+}
+
+.upper-card7 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/MB2.jpg");
+}
+
+.upper-card8 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/sway.jpg");
+}
+
+.upper-card9 {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4)),
+    url("./assets/tobeloved.jpg");
 }
