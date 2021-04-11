@@ -1,17 +1,14 @@
-/* * {
-  border: solid 1px black;
-} */
-
 body {
   display: flex;
   flex-direction: column;
   background: #DDDBCF;
+  font-family: Roboto;
 }
 
 
 .header {
   display: grid;
-  grid-template-columns: 15% 15% 15% 30% 25%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 40% 60%;
   background: #48304B;
   height: 12em;
@@ -19,7 +16,7 @@ body {
 
 
 h1 {
-  grid-column-start: 5;
+  grid-column-start: 2;
   font-size: 1.5em;
   color: #78C3FB;
   justify-self: end;
@@ -27,7 +24,7 @@ h1 {
 
 
 .logo {
-  grid-column-start: 5;
+  grid-column-start: 2;
   grid-row-start: 2;
   height: 4.5em;
   width: 4.5em;
@@ -49,16 +46,16 @@ h1 {
 
 h2 {
   color: #48304B;
+  font-weight: 200;
 }
 
 
 .songs {
   display: grid;
-  /* grid-template-columns: repeat(4, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  /* grid-template-rows: 33% 33% 33%; */
-  /* height: 75vh; */
   grid-gap: .8em;
+  padding: 10px;
+  min-wid: 320px;;
 }
 
 
@@ -66,15 +63,13 @@ h2 {
   display: flex;
   flex-direction: column;
   background-color: #EBEBEB;
-  /* max-height: 400px; */
   width: 300px;
 }
 
+
 .upper-card {
-  /* background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
-    url("./assets/beautifulday.jpg"); */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,19 +139,23 @@ color: #3D3D3D;
   margin: 0;
 }
 
+
 .link-to-buy-concert-tickets {
   font-size: 1.3em;;
 }
 
+
 .link-to-vote {
   margin-bottom: 0;
 }
+
 
 .number-of-votes {
   margin: 0;
   font-size: 2em;
   color: #4DAFF9;
 }
+
 
 .upper-card1 {
   background: linear-gradient(
@@ -245,4 +244,17 @@ color: #3D3D3D;
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/tobeloved.jpg");
+}
+
+
+@media only screen and (max-width: 613px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-icons {
+    font-size: 1em;
+    margin: 0;
+  }
 }
