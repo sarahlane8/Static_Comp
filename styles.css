@@ -58,7 +58,7 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-rows: 33% 33% 33%; */
   /* height: 75vh; */
-  grid-gap: 2em;
+  grid-gap: .8em;
 }
 
 
@@ -67,7 +67,7 @@ h2 {
   flex-direction: column;
   background-color: #EBEBEB;
   /* max-height: 400px; */
-  width: 280px;
+  width: 300px;
 }
 
 .upper-card {
@@ -118,27 +118,54 @@ h2 {
 
 
 .song-title {
-margin-top: 0
+margin: 0;
+font-size: 1.5em;
+color: #3D3D3D;
 }
 
 
 .album-title {
   margin-top: 0;
   font-size: 19px;
+  color: #ADADAD;
+  font-weight: bold;
 }
 
 
 .music-video-url {
   padding: 5px;
-  background-color: gray;;
+  background-color: #E0E0E0;
+  color: #3D3D3D;
 }
 
+
+.link-to-buy-album,
+.link-to-buy-concert-tickets {
+  margin: 0;
+}
+
+.link-to-buy-concert-tickets {
+  font-size: 1.3em;;
+}
+
+.link-to-vote {
+  margin-bottom: 0;
+}
+
+.number-of-votes {
+  margin: 0;
+  font-size: 2em;
+  color: #4DAFF9;
+}
 
 .upper-card1 {
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/beautifulday.jpg");
+    background-position: right top;
+    background-repeat: repeat;
+    background-size: stretch;
 }
 
 
@@ -147,6 +174,9 @@ margin-top: 0
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/callmeirresponsible.jpg");
+    background-position: right top;
+    background-repeat: repeat;
+    background-size: stretch;
 }
 
 
@@ -155,6 +185,9 @@ margin-top: 0
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/crazylove.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: stretch;
 }
 
 
@@ -163,6 +196,9 @@ margin-top: 0
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/everything.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: stretch;
 }
 
 
@@ -179,6 +215,9 @@ margin-top: 0
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/MB.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    background-size: stretch;
 }
 
 
@@ -195,6 +234,9 @@ margin-top: 0
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/sway.jpg");
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: stretch;
 }
 
 
