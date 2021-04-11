@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid 1px black;
-}
+} */
 
 body {
   display: flex;
@@ -48,11 +48,11 @@ h2 {
 
 .songs {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-rows: 33% 33% 33%; */
   /* height: 75vh; */
-  /* grid-gap: 20px; */
+  grid-gap: 2em;
 }
 
 .card {
@@ -60,7 +60,8 @@ h2 {
   /* height: auto; */
   flex-direction: column;
   background-color: #EBEBEB;
-  max-height: 400px;
+  /* max-height: 400px; */
+  width: 280px;
     /* position: relative; */
 }
 
@@ -73,6 +74,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  height: 140px;
 }
 
 .album-image {
@@ -100,13 +102,16 @@ h2 {
   font-size: 1em;
 }
 
+.lower-card {
+  padding: 1em;
+}
 .song-title {
-  position: absolute;
-  margin-top: 10.2em;
+  /* position: absolute; */
+  /* margin-top: 10.2em; */
 }
 
 .album-title {
-  margin-top: 14.4em;
+  /* margin-top: 14.4em; */
   font-size: 19px;
 }
 
