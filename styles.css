@@ -1,6 +1,6 @@
-* {
+/* * {
   border: solid 1px black;
-}
+} */
 
 body {
   display: flex;
@@ -84,7 +84,6 @@ h2 {
 
 
 .album-image {
-  /* position: absolute; */
   z-index: 1;
   width: 15em;
   height: 10em;
@@ -92,51 +91,64 @@ h2 {
 
 
 .play-icon {
-  /* position: relative; */
-  font-size: 2em;
+  font-size: 2.5em;
   z-index: 2;
-  margin-left: 0.2em;
+  margin-left: 0.4em;
   margin-top: 0.2em;
 }
 
+
 .number-of-plays {
   color: white;
-  /* position: absolute; */
-  margin-left: 11em;
+  margin-left: 6em;
   margin-top: 0.2em;
   z-index: 2;
-  font-size: 1em;
+  font-size: 1.5em;
 }
+
 
 .lower-card {
   padding: 1em;
 }
-.song-title {
-  /* position: absolute; */
-  /* margin-top: 10.2em; */
+
+
+.song-information {
+  height: 52px;
 }
 
+
+.song-title {
+margin-top: 0
+}
+
+
 .album-title {
-  /* margin-top: 14.4em; */
+  margin-top: 0;
   font-size: 19px;
 }
+
 
 .music-video-url {
   padding: 5px;
   background-color: gray;;
 }
+
+
 .upper-card1 {
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/beautifulday.jpg");
 }
+
+
 .upper-card2 {
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/callmeirresponsible.jpg");
 }
+
 
 .upper-card3 {
   background: linear-gradient(
@@ -145,12 +157,14 @@ h2 {
     url("./assets/crazylove.jpg");
 }
 
+
 .upper-card4 {
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/everything.jpg");
 }
+
 
 .upper-card5 {
   background: linear-gradient(
@@ -159,12 +173,14 @@ h2 {
     url("./assets/feelinggood.jpg");
 }
 
+
 .upper-card6 {
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/MB.jpg");
 }
+
 
 .upper-card7 {
   background: linear-gradient(
@@ -173,12 +189,14 @@ h2 {
     url("./assets/MB2.jpg");
 }
 
+
 .upper-card8 {
   background: linear-gradient(
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.4)),
     url("./assets/sway.jpg");
 }
+
 
 .upper-card9 {
   background: linear-gradient(
